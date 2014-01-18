@@ -1,0 +1,17 @@
+﻿<Window x:Class="Birthday.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Daudz laimes" Height="800" Width="1280" WindowStyle="None" ShowInTaskbar="False" WindowState="Maximized" WindowStartupLocation="CenterScreen" KeyDown="Window_KeyDown">
+    <Window.Background>
+        <ImageBrush/>
+    </Window.Background>
+    <Grid MouseDown="Grid_MouseDown">
+        <Grid.Background>
+            <ImageBrush ImageSource="Bilde.jpg" TileMode="FlipXY"/>
+        </Grid.Background>
+        <Label Content="Daudz laimes dzimšanas dienā!" HorizontalAlignment="Center" Margin="0,100,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Ribbon 131 TL" FontSize="72" FontWeight="Bold"/>
+        <Label x:Name="uxVerse" Content="Līksmai dienai - putnu dziesma,&#xD;&#xA;Aukstai - ugunskura liesmu, &#xD;&#xA;Labam miegam - jūras šalku, &#xD;&#xA;Lielām slāpēm - rasas malku, &#xD;&#xA;Karstai dienai - vēju lēnu, &#xD;&#xA;Nogurumam - vēsu ēnu, &#xD;&#xA;Skumjām - pūpolmīkstu glāstu, &#xD;&#xA;Tukšiem brīžiem - brīnumstāstu, &#xD;&#xA;Tumšai naktij - zvaigžņu lietu, &#xD;&#xA;Sirdī mīlai - siltu vietu!" HorizontalAlignment="Left" Margin="100,250,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Ribbon 131 TL" FontSize="42" FontWeight="Bold"/>
+        <Label Content="Tehniskais atbalsts: 26673310" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Foreground="White" FontFamily="Ribbon 131 TL" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
